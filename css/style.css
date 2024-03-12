@@ -4,12 +4,9 @@
 	box-sizing: border-box;
 }
 
-
-
 .profile {
 	max-height: 200px;
 	border-radius: 50%;
-	margin-top: -50px;
 	border: 2px groove black;
 }
 
@@ -75,13 +72,14 @@ a {
 
 @media only screen and (max-width: 800px) {
 	.card {
-		margin: 100px 20px 50px;
+		margin: 100px 50px 50px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		background-color: #e6efff;
 		border-radius: 10px;
 		box-shadow: 1px 1px 10px black;
+		padding: 0 0 80px;
 	}
 
 	.card-profile {
